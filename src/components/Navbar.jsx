@@ -13,11 +13,18 @@ export default function Navbar() {
       <div className="navbar-container">
         <div className="navbar-content">
           {/* Logo/Brand */}
-          <div className="navbar-logo">
-            <a href="/" className="navbar-brand">
-              Portfolio
-            </a>
-          </div>
+        <div className="navbar-logo">
+  <a href="/" className="navbar-brand">
+    <img 
+      src="/favicon.png" 
+      alt="Portfolio Logo" 
+      className="navbar-logo-image" 
+      style={{ width: '32px', height: '32px', marginRight: '8px' }} 
+    />
+    Portfolio
+  </a>
+</div>
+
 
           {/* Desktop Navigation */}
           <div className="navbar-desktop">
